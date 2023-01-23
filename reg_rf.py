@@ -4,7 +4,7 @@ import pandas as pd
 import random
 import datetime
 # Read in data as pandas dataframe and display first 5 rows
-original_features1 = pd.read_csv('/home/ubuntu/.jenkins/workspace/python-project/crop_data - Copy.csv')
+original_features1 = pd.read_csv('/home/ubuntu/.jenkins/workspace/python_latest/crop_data - Copy.csv')
 original_features = pd.get_dummies(original_features1)
 
 # Use numpy to convert to arrays
